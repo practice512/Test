@@ -1,0 +1,3 @@
+com\app\tests\CucumberHooks.class
+com\app\tests\FindCruiseStepDef.class
+com\app\tests\SearchResultsStepDef.class

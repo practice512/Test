@@ -1,0 +1,11 @@
+import cucumber.api.CucumberOptions;
+import org.junit.runner.RunWith;
+import cucumber.api.junit.Cucumber;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "$featureFile",
+    format = {"pretty"},
+    plugin = {"com.app.test.formatter.JSONScenarioFormatter:target/report${randCode}.json"},
+    tags = {$tags})
+public class ${testPhaseIdentifier}${randCode}IT {
+}
