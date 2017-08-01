@@ -7,7 +7,7 @@
     <groupId>selenium.guice</groupId>
     <artifactId>selenium-guice</artifactId>
     <version>1.0</version>
-
+    //raju
     <properties>
         <serenity.version>1.1.8</serenity.version>
         <serenity.bdd.version>1.1.1</serenity.bdd.version>
